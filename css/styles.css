@@ -78,12 +78,7 @@ h2{
     flex-direction: column;
   }
   .feature {
-    width: 200px;
-    height: auto;
-    margin-bottom: 60px;
-    float: center;
-    border-radius: 50%;
-    border: solid 5px rgb(92, 119, 116,.5);
+    display: none;
   }
   .nav a{
     font-size: 10px;
