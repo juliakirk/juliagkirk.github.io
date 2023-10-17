@@ -66,12 +66,12 @@ a:hover{
 p {
   margin: 40px;
   padding: 10px;
-  font-size: 20px;
+  font-size: 15xpx;
 }
 h2{
   padding: 30px;
   border-top: 2px solid rgb(92, 119, 116,.5);
-  font-size: 50px;
+  font-size: 30px;
 }
 .res{
   background-color: rgb(128, 128, 128);
