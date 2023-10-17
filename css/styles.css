@@ -1,0 +1,82 @@
+html{
+  font-family: Avenir,Open Sans,Helvetica,sans-serif;
+  background: rgb(206, 216, 217,.2);
+}
+nav {
+  background: rgb(206, 216, 217);
+  padding: .5em;
+  position: sticky;
+  top:0;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: rgb(75,75,75);
+  text-decoration: none;
+  padding: .5em 1em;
+  font-weight: 500;
+  font-size: 35px;
+}
+body{
+  display: flex;
+}
+h1{
+  font-weight: 600;
+  font-size: 6em;
+  color: rgb(92, 119, 116);
+}
+nav{
+  background: rgb(206, 216, 217);
+}
+nav li {
+  color: rgb(75,75,75);
+  display: list-item;
+  text-align: match-parent;
+  list-style-type: none;
+}
+a:hover{
+  color: rgb(92, 119, 116);
+}
+
+.content{
+  margin-left: 20px;
+}
+.page {
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+.feature {
+  width: 500px;
+  height: auto;
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+  float: left;
+  border-radius: 50%;
+  border: solid 5px rgb(92, 119, 116,.5);
+}
+p {
+  margin: 40px;
+  padding: 10px;
+  font-size: 30px;
+}
+h2{
+  padding: 30px;
+  border-top: 2px solid rgb(92, 119, 116,.5);
+  font-size: 50px;
+}
+.res{
+  background-color: rgb(128, 128, 128);
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0%;
+}
