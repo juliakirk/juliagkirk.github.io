@@ -23,7 +23,7 @@ nav a {
   font-size: 20px;
 }
 h1{
-  font-weight: 600;
+  font-weight: 400;
   font-size: 35px;
   color: rgb(92, 119, 116);
 }
@@ -55,7 +55,7 @@ a:hover{
 }
 p {
   margin: 30px;
-  padding: 10px;
+  padding-top: 10px;
   font-size: 15px;
 }
 h2{
@@ -73,14 +73,14 @@ h2{
 @media screen and (max-width: 500px) { 
   .page{
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
   }
   .feature {
     display: none;
   }
-  .nav a{
+  a{
     font-size: 10px;
   }
 }
@@ -91,4 +91,7 @@ h2{
     display: flex;
     flex-direction: column;
   }
+}
+.one, .two{
+  display: flex;
 }
